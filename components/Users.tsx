@@ -26,13 +26,12 @@ function Users(): JSX.Element {
 
   const status = [{ status: "inactive", color: "text-[#545F7D]", bg: "bg-[#545F7D1a]" }, { status: "pending", color: "text-[#E9B200]", bg: "bg-[#E9B2001a]" }, { status: "blacklisted", color: "text-[#E4033B]", bg: "bg-[#E4033B1a]" }, { status: "active", color: "text-[#39CD62]", bg: "bg-[#39CD621a]" }];
 
-
   const router = useRouter();
 
-
   useEffect(() => {
-    if (!hasAdmin && hasAdmin! < 1)
-      router.push("/auth/login");
+    if (hasAdmin === 0) {
+      router.push("/dashboard/users")
+    }
 
     if (!hasUsers && hasUsers! < 1) {
       fetch("https://6270020422c706a0ae70b72c.mockapi.io/lendsqr/api/v1/users")

@@ -8,7 +8,7 @@ import { useRouter } from "next/router";
 const Home = () => {
   const router = useRouter()
   useEffect(() => {
-    router.push("/dashboard/users")
+    router.push("/auth/login")
   })
 };
 
