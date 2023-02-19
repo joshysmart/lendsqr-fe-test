@@ -2,7 +2,7 @@ import React from 'react'
 
 function Filter({ showFilter }: any) {
   return (
-    <div className={`absolute top-0 left-8 bg-white shadow-[3px__5px__20px__#0000000a] py-8 px-5 ${!showFilter && "hidden"} flex flex-col gap-4`}>
+    <div className={`absolute top-0 left-8 bg-white shadow-[3px__5px__20px__#0000000a] py-8 px-5 ${!showFilter && "hidden"} flex flex-col gap-4 min-w-[300px]`}>
       <div>
         <p className="text-sm font-medium">Organization</p>
         <select name="org" id="org" className='w-full  py-2 bg-white mt-2 border border-[##213F7D] px-5'>
