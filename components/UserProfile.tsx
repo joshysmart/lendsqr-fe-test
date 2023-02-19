@@ -42,7 +42,7 @@ function UserProfile({ loanRepayment, accountBalance, userBank, avatar, accountN
         </div>
         <div className='seperator w-[1px] h-[80px] bg-[#545F7D] hidden lg:block'></div>
         <div>
-          <p>{accountBalance}</p>
+          <p>&#x20A6;{accountBalance}</p>
           <p className='capitalize text-xs font-normal'>{bvn} / <span className='capitalize'>{userBank}</span></p>
         </div>
       </div>
