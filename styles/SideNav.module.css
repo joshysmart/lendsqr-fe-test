@@ -1,0 +1,12 @@
+.li li a {
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+  padding: .8rem 1.6rem;
+
+}
+
+.li li a:hover {
+  background: #38cccc0f;
+  border-left: 3px solid #39CDCC;
+}
