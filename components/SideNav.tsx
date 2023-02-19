@@ -14,8 +14,8 @@ const SideNav = () => {
 
   return (
     <div className='lg:w-[20%] min-h-full'>
-      <div className='eye px-[1.6rem] text-2xl cursor-pointer flex justify-end bg-[#39CDCCab] absolute top-0 left-0 z-40 lg:hidden' onClick={closeSideNav}><FaEye /></div>
-      <div className={`flex flex-col gap-11 ${styles.li} ${close && "translate-x-[-100%]"} absolute top-0 lg:static py-8 lg:py-10 bg-white shadow-[3px__0__20px__#0000000a] transition-all ease-in-out duration-500 h-full lg:translate-x-0`}>
+      <div className='eye px-[1.6rem] text-2xl cursor-pointer flex justify-end bg-[#39CDCCab] absolute top-0 left-0 z-50 lg:hidden' onClick={closeSideNav}><FaEye /></div>
+      <div className={`flex flex-col gap-11 ${styles.li} ${close && "translate-x-[-100%]"} absolute top-0 lg:static py-8 lg:py-10 bg-white shadow-[3px__0__20px__#0000000a] transition-all ease-in-out duration-500 h-full lg:translate-x-0 z-40`}>
         <div className='flex gap-[.8rem] items-center px-[1.6rem] cursor-pointer '> <FaBriefcase /><p>Switch Organization</p> <FaCaretDown /></div>
         <div className=''>
           <Link href="/dashboard/users" className='flex gap-[.8rem] items-center px-[1.6rem] cursor-pointer'>
