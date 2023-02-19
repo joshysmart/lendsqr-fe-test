@@ -10,8 +10,6 @@ This is a solution to [lendsqr-fe-test given by Lendsqr ](https://test-assessmen
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
 - [Author](#author)
 
 ## Overview
