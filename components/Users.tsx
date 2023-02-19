@@ -30,7 +30,7 @@ function Users(): JSX.Element {
 
   useEffect(() => {
     if (hasAdmin === 0) {
-      router.push("/dashboard/users")
+      router.push("/auth/login")
     }
 
     if (!hasUsers && hasUsers! < 1) {

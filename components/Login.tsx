@@ -9,14 +9,13 @@ const Login = () => {
   const [password, setPassword] = useState("");
   const [status, setStatus] = useState("");
   const router = useRouter()
-  const admin = useLiveQuery(() => db.admin.toArray(), []);
+  const admin = useLiveQuery(() => db.admin.count(), []);
 
-  console.log(admin)
   useEffect(() => {
     if (admin) {
       router.push("/dashboard/users")
     }
-  })
+  }, [admin, router])
 
   async function addUser(e: any) {
     try {
