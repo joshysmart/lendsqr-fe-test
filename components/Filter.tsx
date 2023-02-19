@@ -31,9 +31,9 @@ function Filter({ showFilter }: any) {
           <option value="select" className='hidden' hidden>Select</option>
         </select>
       </div>
-      <div>
-        <button>Reset</button>
-        <button>Filter</button>
+      <div className='flex justify-between'>
+        <button className='px-8 py-2 border border-[#545F7D] rounded-lg'>Reset</button>
+        <button className='px-8 py-2 bg-[#39CDCC] text-white rounded-lg'>Filter</button>
       </div>
     </div>)
 }
