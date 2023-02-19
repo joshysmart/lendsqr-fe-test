@@ -123,9 +123,9 @@ function Users(): JSX.Element {
 
       <div className="options absolute right-[6rem] top-0 bg-white shadow-[3px__0__20px__#0000000a] p-8 text-sm font-medium hidden z-40">
         <ul className="flex flex-col gap-5">
-          <li className="flex gap-3 items-center"><FaEye /> View Details</li>
-          <li className="flex gap-3 items-center"><FaUserTimes /> Blacklist User</li>
-          <li className="flex gap-3 items-center"><FaUser /> Activate User</li>
+          <li className="flex gap-3 items-center cursor-pointer"><FaEye /> View Details</li>
+          <li className="flex gap-3 items-center cursor-pointer"><FaUserTimes /> Blacklist User</li>
+          <li className="flex gap-3 items-center cursor-pointer"><FaUser /> Activate User</li>
         </ul>
       </div>
     </ul>;
