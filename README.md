@@ -1,6 +1,6 @@
 # Lendsqr Frontend Engineer lendsqr-fe-test solution
 
-This is a solution to [lendsqr-fe-test given by Lendsqr ](). To prepare for me as a possible frontend engineer at Lendsqr.
+This is a solution to [lendsqr-fe-test given by Lendsqr ](https://test-assessment-lendsqr.vercel.app). To prepare for me as a possible frontend engineer at Lendsqr.
 
 ## Table of contents
 
@@ -36,7 +36,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [live site URL here]()
+- Live Site URL: [live site URL here](https://test-assessment-lendsqr.vercel.app)
 
 ## My process
 
