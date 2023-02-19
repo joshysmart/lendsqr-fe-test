@@ -16,7 +16,7 @@ function Education({ loe, employmentStatus, sectorOfEmployment, employmentDurati
   return (
     <div className='personal-info'>
       <h3 className='text-base font-medium'>Education and Employment</h3>
-      <div className="grid grid-cols-2 lg:grid-cols-4 my-8">
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-y-8 my-8">
         <div className=''>
           <p className='uppercase text-xs font-normal'>level of education</p>
           <p className='font-medium text-base mt-2'>{loe}</p>
@@ -35,7 +35,7 @@ function Education({ loe, employmentStatus, sectorOfEmployment, employmentDurati
         </div>
 
       </div>
-      <div className='grid grid-cols-2 lg:grid-cols-4 my-8'>
+      <div className='grid grid-cols-2 lg:grid-cols-4  gap-y-8 my-8'>
         <div>
           <p className='uppercase text-xs font-normal'>office email</p>
           <p className='font-medium text-base mt-2 break-all'>{officeEmail}</p>

@@ -15,7 +15,7 @@ function PersonalInfo({ fullName, phoneNumber, email, bvn, gender, maritalStatus
   return (
     <div className='personal-info'>
       <h3 className='text-base font-medium'>Personal Information</h3>
-      <div className="grid grid-cols-2 lg:grid-cols-5 my-8">
+      <div className="grid grid-cols-2 lg:grid-cols-5 gap-y-8 my-8">
         <div className=''>
           <p className='uppercase text-xs font-normal'>Full Name</p>
           <p className='font-medium text-base mt-2'>{fullName}</p>
@@ -37,7 +37,7 @@ function PersonalInfo({ fullName, phoneNumber, email, bvn, gender, maritalStatus
           <p className='font-medium text-base mt-2'>{gender}</p>
         </div>
       </div>
-      <div className='grid grid-cols-2 lg:grid-cols-5 my-8'>
+      <div className='grid grid-cols-2 lg:grid-cols-5 gap-y-8 my-8'>
         <div>
           <p className='uppercase text-xs font-normal'>Marital status</p>
           <p className='capitalize font-medium text-base mt-2'>{maritalStatus}</p>

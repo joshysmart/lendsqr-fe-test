@@ -111,7 +111,7 @@ function Users(): JSX.Element {
       <Link className={"grid items-center grid-cols-6 py-6 px-8 border-b border-[#213F7D1A] cursor-pointer capitalize hover:bg-[#38cccc0f] "} href={`/dashboard/users/${user.id}`}>
         <li className="text-sm font-normal">{orgName}</li>
         <li className="text-sm font-normal">{user?.userName}</li>
-        <li className="text-sm font-normal pr-3">{user.email}</li>
+        <li className="text-sm font-normal pr-3 lowercase">{user.email}</li>
         <li className="text-sm font-normal">{phoneNumber}</li>
         <li className="text-sm font-normal">{`${month} ${date}, ${year} ${hour}:${minute} ${period}`}</li>
         <li className={`text-sm font-normal text-center  flex items-center justify-between`}>
