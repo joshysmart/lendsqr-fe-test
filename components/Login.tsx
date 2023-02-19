@@ -11,6 +11,7 @@ const Login = () => {
   const router = useRouter()
   const admin = useLiveQuery(() => db.admin.toArray(), []);
 
+  console.log(admin)
   useEffect(() => {
     if (admin) {
       router.push("/dashboard/users")
