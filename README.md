@@ -30,6 +30,8 @@ Users should be able to:
 
 ### Screenshot
 
+<br/>
+
 ![](./public/assets/images/screenshot.png)
 
 ### Links
